@@ -5,6 +5,7 @@
 
 .header-logo {
     flex: auto;
+    margin: 5px 0;
 }
 
 .header-links {
@@ -12,16 +13,15 @@
 }
 
 .header-links ul {
-    /*display: flex;
-    flex-direction: row-reverse;*/
     padding: 0;
-    margin: 0;
+    margin: 5px 0;
+    text-align: right;
 }
 
 .header-links ul li {
     display: inline-block;
     list-style-type: none;
-    
+    padding-left: 10px;
 }
 
 /* 1 section at a time:
