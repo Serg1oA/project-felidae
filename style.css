@@ -1,3 +1,12 @@
+
+/* DO one section at a time:
+- 1st - get the content into HTML
+- then - style that section in CSS
+- repeat -
+*/
+
+/* header section */
+
 .section-header {
     display: flex;
     justify-content: space-between;
@@ -24,7 +33,35 @@
     padding-left: 10px;
 }
 
-/* 1 section at a time:
-- get the content into HTML
-- style that section in CSS
-*/
+/* hero section */
+
+.section-hero {
+    display: flex;
+}
+
+.hero-right {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+.image-tiger {
+    clip-path: polygon(0 0, 100% 0, 100% 150px, 0 150px);
+    width: 100%;
+}
+
+/* info section */
+
+
+
+/* quote section */
+
+
+
+/* action section */
+
+
+
+/* footer section */
+
+
