@@ -10,6 +10,8 @@
 .section-header {
     display: flex;
     justify-content: space-between;
+    background-color: #1f2937;
+    color: white;
 }
 
 .header-logo {
@@ -37,17 +39,27 @@
 
 .section-hero {
     display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+}
+
+.hero-left {
+    width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .hero-right {
-    height: auto;
-    width: auto;
-    overflow: hidden;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-tiger {
-    clip-path: polygon(0 0, 100% 0, 100% 150px, 0 150px);
-    width: 100%;
+    min-width: 10px;
+    max-width: 300px;
 }
 
 /* info section */
