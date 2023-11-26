@@ -64,11 +64,64 @@
 
 /* info section */
 
+.section-info {
+    display: flex;
+    flex-direction: column;
+}
 
+.info-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section-info h1 {
+    text-align: center;
+}
+
+.info-items p {
+    width: 200px;
+    text-align: center;
+}
+
+.info-images-container {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+
+.item1-image, .item2-image, .item3-image, .item4-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
 /* quote section */
 
+.section-quote {
+    background-color: #E5E7EB;
+}
 
+.quote-card1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-card1 .quote1 {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    margin: 0;
+}
+
+.quote-card1 .author1 {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    align-self: flex-end;
+}
 
 /* action section */
 
