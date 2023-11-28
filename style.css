@@ -5,6 +5,22 @@
 - repeat -
 */
 
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.major-section {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 /* header section */
 
 .section-header {
@@ -111,7 +127,7 @@
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
-    font-weight: light;
+    font-weight: 100;
     margin: 0;
 }
 
@@ -125,8 +141,31 @@
 
 /* action section */
 
+.section-action {
+    display: flex;
+}
 
+.action-card {
+    display: flex;
+}
+
+.action-card-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-button {
+    margin: auto; /* doing nothing :| */
+}
 
 /* footer section */
 
-
+.section-footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 14px;
+}
